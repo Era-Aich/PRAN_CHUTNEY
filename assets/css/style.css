@@ -1,0 +1,241 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.container1{
+    height: 1080px;
+    width: 100%;
+    /* background-color: blue; */
+    overflow: hidden;
+}
+.nav1{
+    height: 1080px;
+    width: 100%;
+   background-image: url("../image/pran_chutney_1688x1125-01-min.jpg");
+  
+   background-repeat: no-repeat;
+ 
+
+   background-size: cover;
+}
+
+.nav2{
+    height: 113px;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    /* overflow: hidden; */
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    height: 90px;
+    width: 90px;
+}
+
+.logo img{
+    height: 90px;
+    width: 90px;
+    margin-left: 70px;
+    padding-top: 17px;
+   
+} 
+
+.nav3{
+    width: 50px;
+    padding-top: 26px;
+    margin-right: 700px;
+}
+
+.box2{
+    height: 400px;
+    width: 800px;
+    /* background-color: chartreuse; */
+ padding: 200px;
+
+ 
+}
+    
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;} 
+     100% {background-color:red; left:0px; top:0px;} 
+  }
+
+.box2 h1,h5{
+  color: whitesmoke;
+
+  position: relative;
+ animation-name: example;
+ animation-duration: 10s;
+ animation-delay: -1s;
+}
+.navbar li a{
+    color: whitesmoke;
+   
+}
+
+.container2{
+    height: 500px;
+    width: 100%;
+    /* background-color: blueviolet;  */
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+.picbox{
+    height: 300px;
+    width: 400px;
+    /* background-color: black; */
+    margin-top: 40px;
+    margin-left: 30px;
+
+}
+
+.writebox{
+    height: 400px;
+    width: 500px;
+    /* background-color: brown; */
+    margin-top: 40px;
+    margin-right: 40px;
+
+}
+.writebox h1{
+    color:red;
+    padding: 50px;
+}
+
+.writebox h4{
+    color: black;
+}
+button{
+    height: 40px;
+    width: 80px;
+    margin-left: 30px;
+    border-radius: 20px;
+    background-color: darkgrey;
+}
+.nav-item ul li{
+    font-size: 18px;
+    text-align: center;
+}
+#button:hover{
+    background-color: red;
+}
+.container4{
+    height: 630px;
+    width: 100%;
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.format{
+    height: 600px;
+    width: 577px;
+    /* background-color: blueviolet; */
+    margin-right: 20px;
+    margin-top: 10px;
+    background-image: url("../image/photo-1497087306.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+ 
+    
+}
+
+.video{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+#form input{
+   margin-bottom: 10px;
+   height: 50px;
+   width: 383px;
+}
+.format h1{
+  margin-left: 110px;
+  color: indianred;
+}
+#form label{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.small{
+    height: 400px;
+    width: 370px;
+padding: 40px;
+/* border: 2px solid green; */
+margin-left: 40px;
+}
+
+.footer{
+    height: 500px;
+    width: 100%;
+    background-color: dimgrey;
+    display: flex;
+   justify-content: space-around;
+}
+
+.fo1, .fo2, .fo3, .fo4{
+    height: 300px;
+    width: 290px;
+
+    /* border: 2px solid beige ; */
+    /* background-color: blue; */
+    margin-top: 20px;
+}
+
+.fo1,.fo2,.fo3,.fo4, h1{
+    color: aliceblue;
+}
+
+.fo1,.fo2,.fo3,.fo4, ul li{
+    list-style: none;
+
+}
+
+.footer2{
+    height: 200px;
+    width: 200px;
+    background-color: brown;
+}
+
+.btn{
+    position: relative;
+}
+
+
+.btn .list2{
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+
+.btn:hover .list2 {
+    visibility: visible;
+  }
